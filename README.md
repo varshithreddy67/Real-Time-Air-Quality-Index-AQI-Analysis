@@ -77,7 +77,7 @@ Prediction & Evaluation – Predict yield and analyze performance
 
 Clone this repository:
 
-git clone https://github.com/your-username/agriculture-yield-prediction.git
+git clone https://github.com/varshithreddy67/agriculture-yield-prediction.git
 
 
 Navigate to the project directory:
