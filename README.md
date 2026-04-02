@@ -26,91 +26,63 @@
 
 
 
+🌍 Real-Time Air Quality Index (AQI) Prediction using Machine Learning
 📌 Project Overview
 
-The Agriculture Yield Prediction Model is a Python-based data science project that predicts crop yield using historical agricultural data. The goal of this project is to demonstrate how machine learning and data analytics can support smarter decision-making in agriculture by identifying patterns and trends in crop production.
+The Real-Time Air Quality Index (AQI) Prediction project is a Machine Learning-based system that analyzes air pollution data and predicts AQI levels based on pollutant concentrations.
 
-This project involves data preprocessing, exploratory data analysis (EDA), model building, and evaluation using real-world datasets.
+This project demonstrates how data preprocessing, exploratory data analysis (EDA), and machine learning techniques can be applied to environmental datasets to generate meaningful insights and support data-driven decision-making.
 
 🎯 Objectives
-
-Analyze agricultural datasets to identify factors influencing crop yield.
-
-Perform data cleaning and preprocessing for reliable model training.
-
-Build a machine learning model to predict agricultural yield.
-
-Evaluate the model using appropriate performance metrics.
-
-Showcase the application of data science in agriculture for informed decision-making.
-
+Analyze air pollution datasets to understand AQI patterns
+Perform data cleaning and preprocessing for reliable model training
+Identify relationships between pollutants and AQI levels
+Build a Machine Learning model to predict AQI categories
+Evaluate model performance using appropriate metrics
 🛠️ Technologies Used
-
 Programming Language: Python
-
 Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-
 Tools: Jupyter Notebook, Excel
-
-Modeling Technique: Machine Learning (Regression-based approach)
-
+Technique: Machine Learning (Regression / Classification)
 📂 Project Structure
-├── python ca2 project.ipynb      # Main Jupyter Notebook
-├── MODEL-AGRI-SDC.xlsx           # Dataset used for training/testing
-├── README.md                     # Project documentation
-
+├── Real-Time-AQI-Analysis.ipynb      # Main Jupyter Notebook
+├── AQI_Dataset.csv                   # Dataset used
+├── README.md                         # Project Documentation
 📊 Workflow
-
-Data Loading – Import dataset and required libraries
-
-Data Preprocessing – Handle missing values and data formatting
-
-Exploratory Data Analysis (EDA) – Understand trends and patterns
-
-Feature Selection – Identify important attributes
-
-Model Training – Train the machine learning model
-
-Prediction & Evaluation – Predict yield and analyze performance
-
+Data Loading – Imported dataset and required libraries
+Data Preprocessing – Handled missing values and formatted data
+Exploratory Data Analysis (EDA) – Analyzed pollutant distributions and AQI trends
+Feature Engineering – Selected important pollutant features
+Model Building – Implemented regression/classification model
+Model Evaluation – Evaluated performance using accuracy / R² / MAE
+Prediction – Predicted AQI levels based on pollutant concentration
+📈 Results
+Successfully built a Machine Learning model to predict AQI levels
+Identified key pollutants impacting air quality
+Generated meaningful insights into pollution trends across cities
+Demonstrated practical application of ML in environmental analytics
 🚀 How to Run the Project
 
 Clone this repository:
 
-git clone https://github.com/varshithreddy67/agriculture-yield-prediction.git
-
+git clone https://github.com/varshithreddy67/Real-Time-Air-Quality-Index-AQI-Analysis.git
 
 Navigate to the project directory:
 
-cd agriculture-yield-prediction
-
+cd Real-Time-Air-Quality-Index-AQI-Analysis
 
 Install required libraries:
 
 pip install pandas numpy matplotlib seaborn scikit-learn
 
-
-Open the Jupyter Notebook:
+Open Jupyter Notebook:
 
 jupyter notebook
 
-
-Run python ca2 project.ipynb
-
-📈 Results
-
-The model successfully predicts crop yield based on historical agricultural data.
-
-Visualization techniques help in understanding yield distribution and feature importance.
-
-This project demonstrates the effectiveness of machine learning in agricultural analytics.
+Run the notebook file.
 
 🔮 Future Enhancements
-
-Use advanced ML models for better accuracy
-
-Include weather and soil parameters
-
+Improve prediction accuracy using advanced ML models
 Deploy the model as a web application
-
-Integrate real-time agricultural data
+Integrate real-time API-based pollution data
+Add interactive dashboard visualization
